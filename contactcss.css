@@ -1,0 +1,47 @@
+h1{
+  color: black;
+}
+.contact{
+  margin:0 auto 0 auto;
+}
+.bodycontact{
+font-family: sans-serif;
+text-align: center;
+}
+
+.founder{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.para{
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+li{
+  font-size: 1.2rem;
+
+}
+
+.topcontainer{
+  text-align: center;
+}
+
+.round{
+  background-color: #FAD9E6;
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+
+@media (max-width: 1028px) {
+.contact{
+  width: 150px;
+  height: 150px;
+}
+
+.topcontainer{
+  text-align: center;
+}
+}

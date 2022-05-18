@@ -1,0 +1,52 @@
+a{
+  font-size: 2rem;
+  font-weight: bold;
+  position: relative;
+  padding-left: 40px;
+}
+
+.frontpage{
+  background-color:#ff4c68;
+}
+
+.firstheading{
+  color: white;
+  font-size: 4rem;
+  text-align: left;
+  padding-top: 25px;
+  line-height: normal;
+}
+.nclogo{
+  padding: 20px;
+}
+.monialpic{
+width: 80%;
+height: 80%;
+border-radius: 100%;
+position: relative;
+padding-left: 10px;
+padding-top: 30px;
+}
+
+.middlecontainer{
+  padding-top: 40px;
+}
+.mypara{
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+
+@media (max-width: 1028px) {
+
+  .frontpage {
+    text-align: center;
+  }
+  .firstheading{
+      text-align: center;
+  }
+}
+.mypara{
+  text-align: center;
+  font-size: 2rem;
+}
